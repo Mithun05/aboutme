@@ -13,17 +13,17 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://mithun05.github.io/
 baseurl: /portfolio/
-title: Chris Turner
-author: Chris Turner
+title: Mithun Deshpande
+author: Mithun Deshpande
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
-github: myjekyll/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+email: mdeshpa1@binghamton.edu
+github: Mithun05/ # username
+#twitter: 
+linkedin: https://in.linkedin.com/in/mithun-deshpande
+#stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
-disqus: username
+#disqus: username
 google_analytics: UA-69391421-1
 
 
