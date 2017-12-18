@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://mithun05.github.io/
-baseurl: //
+url: https://mithun05.github.io
+baseurl: /portfolio/
 title: Mithun Deshpande
 author: Mithun Deshpande
 description: Personal blog and resume
