@@ -4,49 +4,52 @@
   <div class="panel panel-default">
     <div class="panel-body">
 		<h5>
-			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/IPC%20Pipes/prj2">Project 1</a></strong>
-			- The Matrix Multiplication is being implemented in C using Inter Process Communication mechanism such as anonymous pipes.
-			  It creates multiple worker processes by client process and communication within processes happens in such a way that client 
-			  would distribute input data for each multiplication among the worker processes in order to get more concurrency. In short, 
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/IPC%20Pipes/prj2" target="_blank">Project 1</a></strong>
+			- The Matrix Multiplication is being implemented in C using Inter Process Communication(IPC) mechanism such as <strong>Anonymous Pipes.</strong>
+			  The Client creates multiple worker processes and communication within processes happens in such a way that client 
+			  would distribute input data for each row multiplication among the worker processes in order to achieve more concurrency. In short, 
 			  designed and developed IPC protocol and structure between client and worker processes. Worker process receives input data , 
-			  performs multiplication and sends response data back to the client. 
+			  performs multiplication and sends response data back to the client.
 		</h5>
 		<h5>
-			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/IPC%20Pipes/prj3/files">Project 2</a></strong>
-			- The Matrix Multiplication is being implemented in C using Inter Process Communication mechanism such as named pipes.
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/IPC%20Pipes/prj3/files" target="_blank">Project 2</a></strong>
+			- The Matrix Multiplication is being implemented in C using Inter Process Communication (IPC) mechanism such as <strong>Named Pipes.</strong>
 			  A long running daemon concurrent server waits on well-known FIFO to listen to client request and after accepting the request, 
 			  server creates a worker process using double fork technique to perform multiplication of matrices sent by the client using multiplication 
-			  function which is dynamically loaded module and in response, it returns the time taken at user, system and both the level. 
+			  function which is dynamically loaded module and in response, it returns the time taken at user, system level i.e. how many cycle ticks it needed to 
+			  perform the matrix multiplication calculation.
 		</h5>
     	<h5>
-			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/IPC%20Shared%20Memory/prj4">Project 3</a></strong>
-		        - Uses semaphores, shared memory segment with client server mechanism to perform matrix multiplication 
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/IPC%20Shared%20Memory/prj4" target="_blank">Project 3</a></strong>
+		        - Concept uses Semaphores, Shared Memory Segment IPC client server mechanism to perform matrices multiplication. 
 		</h5>
 		<h5>
-			<i class="fa fa-globe"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/IPC%20Socket/prj5">Project 4</a></strong>
-			- Concept use Socket IPC in which Client/Server in which client sends matrices and server performs multiplication and send time response back to the client
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/IPC%20Socket/prj5" target="_blank">Project 4</a></strong>
+			- Concept uses <strong>Socket IPC</strong> Client/Server mechanism in which client sends matrices to the server and server performs matrices multiplication 
+			  and send time response taken back to the client.
 		</h5>
 		<h5>
-			<i class="fa fa-globe"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/Object%20Oriented%20C/prj1">Project 5</a></strong>
-			- Object Oriented C Matrix Multiplication
-			  Abstract Matrix Implementation : It consists of operations such as transpose, multiplications which can be implemented with the help of other operations such as 
-			  getting rows, columns and entries in the matrices without the knowledge of concrete implementations. This is known to be Abstract Matrix Implementation.
-			  Dense Matrix Implementation : It consists of accessing matrices elements in row major order and inherit operations from Abstract Matrix and implements only those 
-			  which are not implemented in Abstract matrix. It implements multiplication operation by inheriting it from Abstract Matrix. 
-			  Smart Matrix Implementation: It consists of accessing matrices elements in column major order and inherit operations from Dense Matrix and override the multiplication 
-			  operation in addition to taking a transpose of a multiplier.
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Systems-Programming/tree/master/Object%20Oriented%20C/prj1" target="_blank">Project 5</a></strong>
+			- Object Oriented Programming in C <br/> 
+			  <strong>Abstract Matrix</strong> Implementation : It consists of operations such as transpose, multiplications which can be implemented with the help of other operations such as 
+			  getting rows, columns and entries in the matrices without the knowledge of concrete implementations. This is known to be Abstract Matrix Implementation.<br/>
+			  <strong>Dense Matrix</strong> Implementation : It consists of accessing matrices elements in row major order and inherit operations from Abstract Matrix and implements only those 
+			  which are not implemented in Abstract matrix. It implements multiplication operation by inheriting it from Abstract Matrix. <br/>
+			  <strong>Smart Matrix</strong> Implementation: It consists of accessing matrices elements in column major order and inherit operations from Dense Matrix and override the multiplication 
+			  operation in addition to taking a transpose of a multiplier. 
 		</h5>
 		<h5>
-			<i class="fa fa-cog"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Algorithm/tree/master/mdeshpa1_proj1">Project 6</a></strong>
-			- Phone directory uses quick sort algorithm
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Algorithm/tree/master/mdeshpa1_proj1" target="_blank">Project 6</a></strong>
+			- Phone Directory C based implementation. Sorting uses quick sort algorithm. 
 		</h5>
 		<h5>
-			<i class="fa fa-cog"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Algorithm/tree/master/mdeshpa1_project2">Project 7</a></strong>
-			- Strassen and tromino algorithm implementation
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Algorithm/tree/master/mdeshpa1_project2" target="_blank">Project 7</a></strong>
+			- Strassen and Tromino algorithm C based implementation
 		</h5>
 	    	<h5>
-			<i class="fa fa-cog"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Algorithm/tree/master/mdeshpa1_project3">Project 8</a></strong>
-			- Dijikstra Algorithm and Brute force, greedy algorithm and dynamic programming knapsack solution
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/Mithun05/Algorithm/tree/master/mdeshpa1_project3" target="_blank">Project 8</a></strong>
+			- Dijikstra Algorithm C based implementation
+			  Brute force, Greedy and Dynamic programming 0/1 Knapsack C based implementation
 		</h5>
 
 
