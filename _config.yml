@@ -1,13 +1,13 @@
 # top level stuff you probably don't need to touch
-highlighter: rouge
-markdown: kramdown
+#highlighter: rouge
+#markdown: kramdown
 rdiscount:
   extensions: [smart]
 #permalink: /:title.html
-permalink: /:index.html
+permalink: pretty
 paginate: 5
 plugins: [jekyll-paginate]
-port: 3000
+#port: 3000
 safe: true
 
 
@@ -30,3 +30,29 @@ google_analytics: UA-69391421-1
 
 # needed for travis-ci build for
 exclude: [vendor]
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
