@@ -27,5 +27,5 @@ stackoverflow: users/4387633/md05   #e.g: users/2735833/proton1h1
 google_analytics: UA-69391421-1
 
 
-# needed for travis-ci build
+# needed for travis-ci build for
 exclude: [vendor]
