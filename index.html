@@ -1,7 +1,11 @@
 ---
 layout: home
 ---
-
+<style>
+ul.b {
+    list-style-type: square;
+}
+</style>	
 <section id="about">
 	<div class="container">
 	  <div class="avatar">
@@ -13,6 +17,13 @@ layout: home
 	  <h3>For more check out my academic &amp; professional <a href="files/MithunDeshpandeLatestResume.pdf" target="_blank">Resume</a>.</h3>
 	  <h3>Contact me at my <a href="mailto:{{ site.email }}">email</a>.</h3>
 	  <p>-------------------------------------------------------------------------------------------------------------------------------------</p> 	
-	  {% include social.html %}
+	  <h3>My Area of <strong> Research Interests </strong> </h3>
+		<ul class="b">
+  		<li>Machine Learning & Artificial Intelligence</li>
+  		<li>Game & Parallel programming</li>
+  		<li>Compilers & Distributed Systems</li>
+		<li>Robotics & Mobile Platforms</li>
+		</ul>
+		{% include social.html %}
 	</div>
 </section>
